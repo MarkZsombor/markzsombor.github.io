@@ -31,8 +31,8 @@ a {
 //           transform: rotate(360deg);
 // }
 
-.animate:hover {
-  animation: wobble 0.5s cubic-bezier(.36,.07,.19,.97) both;
+.wobble:hover {
+  animation: wobble 1s cubic-bezier(.36,.07,.19,.97) both;
   // animation: shake 1.4s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
