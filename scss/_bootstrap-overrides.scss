@@ -32,7 +32,8 @@ a {
 // }
 
 .animate:hover {
-  animation: shake 1.4s cubic-bezier(.36,.07,.19,.97) both;
+  animation: wobble 0.5s cubic-bezier(.36,.07,.19,.97) both;
+  // animation: shake 1.4s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
@@ -54,4 +55,15 @@ a {
   40%, 60% {
     transform: translate3d(4px, 0, 0);
   }
+}
+
+@keyframes wobble {
+  30% {
+    transform: rotate(10deg);
+  }
+  
+  70% {
+    transform: rotate(-10deg);
+  }
+
 }

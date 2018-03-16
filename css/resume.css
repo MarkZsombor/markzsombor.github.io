@@ -153,7 +153,7 @@ a:hover, a:focus, a:active {
 }
 
 .animate:hover {
-  animation: shake 1.4s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  animation: wobble 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
   perspective: 1000px;
@@ -171,5 +171,14 @@ a:hover, a:focus, a:active {
   }
   40%, 60% {
     transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes wobble {
+  30% {
+    transform: rotate(10deg);
+  }
+  70% {
+    transform: rotate(-10deg);
   }
 }
