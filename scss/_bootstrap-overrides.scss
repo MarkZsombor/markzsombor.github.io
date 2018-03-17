@@ -22,14 +22,6 @@ a {
 }
 
 
-// .rotate {
-//   -webkit-transition: -webkit-transform .5s ease-in-out;
-//           transition: transform .8s ease-in-out;
-// }
-// .rotate:hover {
-//   -webkit-transform: rotate(360deg);
-//           transform: rotate(360deg);
-// }
 
 .wobble:hover {
   animation: wobble 1s cubic-bezier(.36,.07,.19,.97) both;
@@ -92,7 +84,7 @@ a {
   }
 }
 
-.subheading {
+.person-details {
   opacity: 0;
   animation: appear 2s ease-in-out;
   animation-fill-mode: forwards;
@@ -125,4 +117,8 @@ a {
   animation: appear 1s ease-in-out;
   animation-fill-mode: forwards;
   animation-delay: 5.5s;
+}
+
+.vol-icon {
+  width: 50px;
 }

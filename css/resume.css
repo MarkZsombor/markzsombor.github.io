@@ -208,7 +208,7 @@ a:hover, a:focus, a:active {
   }
 }
 
-.subheading {
+.person-details {
   opacity: 0;
   animation: appear 2s ease-in-out;
   animation-fill-mode: forwards;
@@ -241,4 +241,8 @@ a:hover, a:focus, a:active {
   animation: appear 1s ease-in-out;
   animation-fill-mode: forwards;
   animation-delay: 5.5s;
+}
+
+.vol-icon {
+  width: 50px;
 }
