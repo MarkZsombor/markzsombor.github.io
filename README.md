@@ -6,5 +6,4 @@ This is a simple single page profile page, built originally to learn Bootstrap 4
 
 Redesign for mobile. Current styling is responsive, but the site looks really boring on mobile.
 
-Add Surfrider to Volunteering
 Add Cutthroat Gaming to Volunteering
